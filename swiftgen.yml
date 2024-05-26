@@ -1,0 +1,22 @@
+
+strings:
+  inputs:
+    - en.lproj
+  outputs:
+#    templatePath: Colearn/SwiftGen/Templates/structuredswift5.stencil
+    templateName: structured-swift5
+    output: BoilerPlate/SwiftGen/Strings.swift
+    params:
+      lookupFunction: Bundle.main.customLocalizedString
+#xcassets:
+#  inputs: Colearn
+#  outputs:
+#    templatePath: Colearn/SwiftGen/Templates/swift5.stencil
+#    output: Colearn/SwiftGen/Assets.swift
+#ib:
+#  inputs: Colearn/Modules
+#  outputs:
+#    - templateName: scenes-swift5
+#      output: Colearn/SwiftGen/StoryboardScenes.swift
+#    - templateName: segues-swift5
+#      output: Colearn/SwiftGen/StoryboardSegues.swift

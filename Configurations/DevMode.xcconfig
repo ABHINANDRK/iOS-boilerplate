@@ -1,0 +1,11 @@
+//
+//  DevMode.xcconfig
+//  Boilerplate
+//
+//  Created by Abhinand on 10/09/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASEURL = fruityvice.com
